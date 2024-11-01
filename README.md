@@ -1,1 +1,4 @@
 # Text-To-Speech-App
+
+This code implements a text-to-speech functionality using the Web Speech API, allowing users to convert text input into spoken words while displaying a timer that estimates the speech duration. 
+It begins by selecting relevant HTML elements, including the text area, button, and timer display. Upon clicking the button, the code validates the input to ensure it's not empty, then creates a new speech utterance from the entered text. It estimates the speech duration based on word count, initiates the speech synthesis, and starts a timer that updates every second to show the remaining time. An event handler resets the button text and clears the timer once the speech completes. Overall, the code enhances user interaction by providing real-time feedback on the speech process and ensuring a smooth experience with error handling.
