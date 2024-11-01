@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    padding: 10px;
+    margin: 10px;
+    box-sizing: content-box;
+    font-family: "Poppins", "Arial", "Helvetica", sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(90deg, #f88604, #28a007);
+}
+
+.app-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #010000;
+}
+
+.headings-container {
+    padding: 0 1rem;
+}
+
+.interaction-container {
+    display: flex;
+    align-items: normal;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.text-control {
+    padding: 0.5rem;
+    margin: 2rem 0;
+    background-color: rgba(0, 0, 0, 0.32);
+    color: #f10909;
+    border: 1px solid #7e06e7;
+    border-radius: 10px;
+    font-size: 1rem; /* Increased font size for better readability */
+}
+
+.text-control:focus-visible {
+    outline: none;
+}
+
+.error-para {
+    color: rgb(220, 254, 28);
+    margin: 1rem 0; /* Added margin for spacing */
+}
+
+.btn {
+    padding: 0.8rem;
+    background-image: linear-gradient(90deg, #77eaec, #43f203);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: #090909;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.btn:hover {
+    padding: 1rem;
+}
+
+#timerDisplay {
+    font-size: 1.5rem; /* Increased font size for visibility */
+    margin-top: 1rem; /* Added margin for spacing */
+    color: #ffffff; /* Color for the timer display */
+    background-color: rgba(0, 0, 0, 0.5); /* Slight background for contrast */
+    padding: 0.5rem;
+    border-radius: 5px; /* Rounded corners for the timer display */
+}
